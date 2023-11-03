@@ -10,6 +10,7 @@
 		182460A12AF4F8DE00408D94 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182460A02AF4F8DE00408D94 /* QuakeError.swift */; };
 		182460A92AF4F9D800408D94 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182460A82AF4F9D800408D94 /* EarthquakesTests.swift */; };
 		182460B02AF4FA1500408D94 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182460AF2AF4FA1500408D94 /* TestData.swift */; };
+		182460B22AF4FDDC00408D94 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182460B12AF4FDDC00408D94 /* GeoJSON.swift */; };
 		189A68492AF23851008A064B /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A68482AF23851008A064B /* EarthquakesApp.swift */; };
 		189A684D2AF23853008A064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A684C2AF23853008A064B /* Assets.xcassets */; };
 		189A68502AF23853008A064B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A684F2AF23853008A064B /* Preview Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		182460A62AF4F9D800408D94 /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182460A82AF4F9D800408D94 /* EarthquakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesTests.swift; sourceTree = "<group>"; };
 		182460AF2AF4FA1500408D94 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		182460B12AF4FDDC00408D94 /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 		189A68452AF23851008A064B /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A68482AF23851008A064B /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
 		189A684C2AF23853008A064B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				189A68582AF2389B008A064B /* Quake.swift */,
 				189A685A2AF238B6008A064B /* Quake+Color.swift */,
 				182460A02AF4F8DE00408D94 /* QuakeError.swift */,
+				182460B12AF4FDDC00408D94 /* GeoJSON.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				189A68642AF23A5B008A064B /* RefreshButton.swift in Sources */,
 				189A685B2AF238B6008A064B /* Quake+Color.swift in Sources */,
 				189A68622AF23A3F008A064B /* EditButton.swift in Sources */,
+				182460B22AF4FDDC00408D94 /* GeoJSON.swift in Sources */,
 				189A686C2AF23B59008A064B /* QuakeRow.swift in Sources */,
 				189A686A2AF23AD2008A064B /* QuakesView.swift in Sources */,
 				189A68682AF23A9F008A064B /* DeleteButton.swift in Sources */,
