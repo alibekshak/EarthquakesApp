@@ -8,6 +8,7 @@
 import Foundation
 
 struct QuakeLocation: Decodable {
+    
     var latitude: Double { properties.products.origin.first!.properties.latitude }
     var longitude: Double { properties.products.origin.first!.properties.longitude }
     private var properties: RootProperties
